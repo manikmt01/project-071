@@ -12,12 +12,11 @@ html{
     scroll-behavior: smooth;
 }
 body{
-   font-family: 'Poppins', sans-serif;
-   font-weight: 400;
-   position: relative;
-   color: #000;
-   background: #fff;
-
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: relative;
+    color: #000;
+    background: #fff;
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: 700;
@@ -54,7 +53,7 @@ ul{
     opacity: 0 !important;
 }
 /* ----------------------------------------------
-                   header  start
+header  start
 ---------------------------------------------- */
 header {
     position: fixed;
@@ -93,8 +92,8 @@ header ul li:hover a{
 }
 header ul li:hover::before,
 header ul li.active::before{
-   opacity: 1;
-   transition: all ease .6s;
+    opacity: 1;
+    transition: all ease .6s;
 }
 header ul li a {
     color: #ddb150;
@@ -102,15 +101,11 @@ header ul li a {
     font-size: 12px;
     transition: all ease .6s;
 }
-
-
 /* ----------------------------------------------
-                  header   end
+header   end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                    right-social start
+right-social start
 ---------------------------------------------- */
 .right-social {
     position: fixed;
@@ -126,23 +121,19 @@ header ul li a {
 .right-social ul.social{}
 .right-social ul.social li{}
 .right-social ul.social li a{}
-
 /* ----------------------------------------------
-                    right-social end
+right-social end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                   home  start
+home  start
 ---------------------------------------------- */
-
 #home{
     background-image: url('../images/about-banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: #fff;
-   background-attachment: fixed;
+    background-attachment: fixed;
     position: relative;
     z-index: 9;
 }
@@ -171,17 +162,17 @@ header ul li a {
     margin: 0;
 }
 #home h1{
-        color: #FFFFFF;
+    color: #FFFFFF;
     font-size: 85px;
     line-height: 85px;
     position: relative;
     margin: 0;
-        text-transform: uppercase;
+    text-transform: uppercase;
     font-weight: 700;
     padding-bottom: 10px;
 }
 #home p{
-        font-size: 16px;
+    font-size: 16px;
     font-weight: normal;
     text-transform: uppercase;
     line-height: 27px;
@@ -197,7 +188,7 @@ header ul li a {
     margin-right: 0;
 }
 #home ul li a{
-        display: inline-block;
+    display: inline-block;
     position: relative;
     outline: 0;
     font-style: normal;
@@ -213,19 +204,16 @@ header ul li a {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-        background-color: #ddb150;
+    background-color: #ddb150;
     border: 2px solid #ddb150;
     color: #333;
     border-radius: 5px;
-
 }
 /* ----------------------------------------------
-                    home end
+home end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                   about  start
+about  start
 ---------------------------------------------- */
 #about {
     background-image: url('../images/main-home-slide1.jpg');
@@ -233,7 +221,7 @@ header ul li a {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-  position: relative;
+    position: relative;
     z-index: 9;
     color: #fff;
 }
@@ -293,22 +281,19 @@ header ul li a {
     color: #333;
     border-radius: 5px;
 }
-
 /* ----------------------------------------------
-                   about  end
+about  end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                   the-chef  start
+the-chef  start
 ---------------------------------------------- */
 #the-chef {
-     background-image: url('../images/cheef.jpg');
+    background-image: url('../images/cheef.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-  position: relative;
+    position: relative;
     z-index: 9;
 }
 #the-chef::before{
@@ -322,7 +307,6 @@ header ul li a {
     opacity: .3;
     z-index: -1;
 }
-
 #the-chef .box {}
 .top-box{
     color: #fff;
@@ -388,20 +372,17 @@ header ul li a {
     transform: scale(1.4, 1.4);
 }
 /* ----------------------------------------------
-                  the-chef   end
+the-chef   end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                     start
+start
 ---------------------------------------------- */
-
 #opening{  background-image: url('../images/slider-bg-image-3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-  position: relative;
+    position: relative;
     z-index: 9;
 }
 #opening::before{
@@ -476,23 +457,19 @@ header ul li a {
     color: #333;
     border-radius: 5px;
 }
-
 /* ----------------------------------------------
-                     end
+end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                 menu    start
+menu    start
 ---------------------------------------------- */
-
 #menu-list {
     background-image: url('../images/banner-5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-  position: relative;
+    position: relative;
     z-index: 9;
 }
 #menu-list::before{
@@ -538,12 +515,10 @@ header ul li a {
     color: #8e8e8e;
 }
 /* ----------------------------------------------
-                     end
+end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                  contact   start
+contact   start
 ---------------------------------------------- */
 #contact {
     background-color: #1b1b1b;
@@ -589,79 +564,51 @@ header ul li a {
 }
 #contact .item-google .google-map{}
 /* ----------------------------------------------
-                   contact  end
+contact  end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-               footer      start
+footer      start
 ---------------------------------------------- */
-
 footer{
     padding: 40px 0;
     border-top: 1px solid #fff;
 }
 /* ----------------------------------------------
-                 footer    end
+footer    end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                     start
+start
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                     end
+end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                     start
+start
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                     end
+end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                     start
+start
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                     end
+end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                     start
+start
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                     end
+end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                     start
+start
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                     end
+end
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                     start
+start
 ---------------------------------------------- */
-
-
 /* ----------------------------------------------
-                     end
+end
 ---------------------------------------------- */
-
